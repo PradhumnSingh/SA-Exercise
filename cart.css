@@ -1,0 +1,194 @@
+
+.lineB{
+	width: 100%;
+	height: 20px;
+	background-color: lightgrey;
+}
+
+.promo{
+	text-align: center;
+}
+
+.app{
+	height: 50px;
+	width: 25%;
+	background-color: white;
+	border: 2px solid lightgrey; 
+	
+}
+#pCode{
+	height: 43px;
+	width: 50%;
+	margin-bottom: 45px;
+}
+
+.chL{
+	float: left;
+	display: inline-block;
+	margin-left: 30px;
+}
+
+.chR{
+	float: right;
+	display: inline-block;
+	margin-right: 30px;
+}
+article > p{
+	margin: 0;
+}
+article{
+	height: 50px;
+}
+.spcl{
+	margin-top: 30px;
+	margin-bottom: 30px;
+	width: 70%;
+	height: 50px;
+	background-color: #2475c1;
+	border: none;
+	color: white;
+	
+}
+body > section{
+	text-align: center;
+}
+
+
+#linkCont + p > span{
+	display: block;
+}
+
+#linkCont{
+	display: block;
+	color: grey;
+	margin-bottom: 30px;
+}
+
+#sigin{
+	color: grey;
+}
+.iner{
+	color:  lightgray;
+	display: block;
+	font-size: 0.7em;
+	float: left;
+}
+h3 > span{
+	display: block;
+}
+
+#sigin + span, #sigin + span + span{
+	display: block;
+}
+
+.chkOut > article{
+	margin: 20px 0 20px 0;
+}
+#hs{
+	visibility: hidden;
+}
+
+
+    .page-header {
+        font-weight: normal;
+        font-size: 17px;
+    }
+
+    img{
+    	height: 180px;
+    	width:180px;
+    }
+
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+    }
+
+    li {
+        float: left;
+        font-size: 14px;
+        border-right: 1px solid black;
+    }
+
+    li:last-child {
+        border-right: none;
+    }
+
+    li a {
+        display: block;
+        color: black;
+        text-align: center;
+        padding: 10px 40px;
+        text-decoration: none;
+    }
+
+    hr.section-separator {
+        border: none;
+        height: 6px;
+        background-color: #cccccc;
+        color: #cccccc;
+    }
+
+
+    .item-name {
+        width: 44%;
+        margin-left: 50px;
+        margin-top: 20px;
+        float: right;
+    }
+
+
+    .item-style,
+    .item-color,
+    .item-size {
+        color: #cccccc;
+        font-size: 12px;
+        display: block;
+    }
+
+   
+    #item1-qty,
+    #item2-qty,
+    #item3-qty {
+        width: 15%;
+        color: black;
+    }
+
+    .item-amount{
+    	font-size: 20px;
+    }
+
+    .item-amount {
+        font-weight: bold;
+        font-size: 18px;
+    }
+
+    .item-title{
+    	font-size: 16px;
+    	font-weight: normal;
+    	margin-left: 40px;
+    	float: right;
+    }
+
+    #item1,#item2,#item3{
+    	margin-top: 20px;
+    	display: flex;
+    }
+
+    .total-items-display{
+    	float: right;
+        position: absolute;
+        right: 20px;
+        bottom: 762px;
+    }
+
+    .topmost-horizontal-line{
+    	display: none;
+    }
+
+
+
+
+

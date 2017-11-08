@@ -1,7 +1,8 @@
 
+
 .lineB{
     width: 100%;
-    height: 20px;
+    height: 10px;
     background-color: lightgrey;
 }
 
@@ -70,13 +71,15 @@ body > section{
 }
 .iner{
     color:  lightgray;
-    display: block;
+    display: inline-block;
     font-size: 0.7em;
     float: left;
     text-align: left;
+    width: 150%;
 }
-h3 > span{
-    display: block;
+.promo > p{
+    
+    text-align: center;
 }
 
 #sigin + span, #sigin + span + span{
@@ -89,6 +92,44 @@ h3 > span{
 #hs{
     visibility: hidden;
 }
+
+.spcl + div {
+    visibility: hidden;
+}
+@media screen and (min-width: 920px){
+    body > section{
+        width:70%;
+        float: right;
+        text-align: left;
+    }
+    #hs{
+        width: 18%;
+        visibility: visible;
+
+    }
+    
+    #pCode{
+        width: 25%;
+        display: inline;
+        
+    }
+
+    .promo {
+        height: 50%;
+        display: inline;
+        
+
+    }
+
+    .fotr{
+        visibility: hidden;
+    }
+    
+
+}
+
+
+    
 
 
     .page-header {
@@ -189,5 +230,4 @@ h3 > span{
     .topmost-horizontal-line{
         display: none;
     }
-
 

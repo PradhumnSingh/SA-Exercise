@@ -1,35 +1,35 @@
 
-
-.lineB{
+/* LOWER PAGE MOBILE VIEW */
+.line-break{
     width: 100%;
     height: 10px;
     background-color: lightgrey;
 }
 
-.promo{
+.promotion-code{
     text-align: center;
 }
 
-.app{
+.apply-button{
     height: 50px;
     width: 25%;
     background-color: white;
     border: 2px solid lightgrey; 
     
 }
-#pCode{
+#p-code{
     height: 43px;
     width: 50%;
     margin-bottom: 45px;
 }
 
-.chL{
+.checkout-L{
     float: left;
     display: inline-block;
     margin-left: 30px;
 }
 
-.chR{
+.checkout-R{
     float: right;
     display: inline-block;
     margin-right: 30px;
@@ -41,7 +41,7 @@ article{
     height: 50px;
     text-align: left;
 }
-.spcl{
+.checkout-button{
     margin-top: 30px;
     margin-bottom: 30px;
     width: 70%;
@@ -56,20 +56,20 @@ body > section{
 }
 
 
-#linkCont + p > span{
+#link-continue + p > span{
     display: block;
 }
 
-#linkCont{
+#link-continue{
     display: block;
     color: grey;
     margin-bottom: 30px;
 }
 
-#sigin{
+#signin-para{
     color: grey;
 }
-.iner{
+.inner{
     color:  lightgray;
     display: inline-block;
     font-size: 0.7em;
@@ -82,62 +82,30 @@ body > section{
     text-align: center;
 }
 
-#sigin + span, #sigin + span + span{
+#signin-para + span, #signin-para + span + span{
     display: block;
 }
 
-.chkOut > article, hr + article{
+.checkout-details > article, hr + article{
     margin: 20px 0 20px 0;
 }
-#hs{
+#aside-info{
     visibility: hidden;
 }
 
-.spcl + div {
+.checkout-button + div {
     visibility: hidden;
 }
-@media screen and (min-width: 920px){
-    body > section{
-        width:70%;
-        float: right;
-        text-align: left;
-    }
-    #hs{
-        width: 18%;
-        visibility: visible;
-
-    }
-    
-    #pCode{
-        width: 25%;
-        display: inline;
-        
-    }
-
-    .promo {
-        height: 50%;
-        display: inline;
-        
-
-    }
-
-    .fotr{
-        visibility: hidden;
-    }
-    
-
-}
 
 
-    
 
-
+   /*  UPPER PAGE MOBILE VIEW */
     .page-header {
         font-weight: normal;
         font-size: 17px;
     }
 
-    img{
+    .item-image-mobile{
         height: 180px;
         width:180px;
     }
@@ -222,12 +190,197 @@ body > section{
 
     .total-items-display{
         float: right;
-        position: absolute;
-        right: 20px;
-        bottom: 762px;
+        margin-top: -32px;
+        font-size: 12px;
     }
 
     .topmost-horizontal-line{
+        visibility: hidden;
+    }
+
+    .item-price-title{
         display: none;
     }
+
+    .heading{
+        display: none;
+    }
+
+    .item1-title-value{
+        display: none;
+    }
+
+/* UPPER PAGE  MOBILE VIEW */
+
+@media screen and (min-width: 910px){
+
+    /*  UPPER PAGE DESKTOP VIEW */
+    header{
+        margin-bottom: 97px;
+     }
+
+    .total-items-display{
+        display: none;
+    }
+
+    .total-items-display-desktop{
+        float: left;
+        width:55%;
+    }
+
+      .topmost-horizontal-line{
+       visibility: visible;
+    }
+
+   .page-header {
+    font-weight: normal;
+    font-size: 34px;
+}
+    
+    .heading{
+        display: block;
+        margin-top: 44px;
+        margin-left: 19px;
+    }
+
+    #item1,#item2,#item3, .item-size-value-mobile , .item-ammount-value,.functionalities-section-mobile,.item-image-mobile,.item-size-title-mobile,.item-name,.item-quantity-title-mobile , .item-price-title-mobile , .item-amount-value-mobile , .dollar-sign-mobile , .item1-qty-box-mobile{
+        display: none;
+    }
+
+    .functionalities-section-desktop{
+        display: block;
+    }
+    .item-size-title-desktop , .item-quantity-title-desktop , .item-price-title-desktop{
+    font-size: 18px;
+    color: #000000;
+    width:15%;
+    float: left;
+    }
+
+    .item1-title-value{
+        display: block;
+
+    }
+
+    .item-image-division, .item-name-desktop, .item-size-value-desktop, .item-quantity-value-desktop{
+        float: left;
+    }
+    
+    .item-image-desktop{
+        height: 180px;
+        width:180px;
+    }
+
+    .item-image-division{
+        float: left;
+        width:20%;
+    }
+
+    .item-name-desktop, .item-size-value-desktop, .item-quantity-value-desktop{
+         margin-top: 24px
+    }
+
+    .item-name-desktop{
+       width: 36.5%;
+      
+    }
+
+    .item-quantity-value-desktop, .item-size-value-desktop{
+       width: 14.5%;
+      
+    }
+
+    .item1-qty-box-desktop{
+       width: 10%;
+    }
+
+    .item-amount-desktop{
+       float: left;
+       margin-top: 24px;
+    }
+
+
+    .functionalities-section-desktop{
+        margin-top: 76px;
+    }
+
+    .item-title-value{
+        margin-top: 22px;
+    }
+
+    .item-image-division{
+        margin-bottom: 37px;
+    }
+
+   hr.items-separating-line{
+    clear: left;
+   }
+
+   .section-separator{
+    clear: left;
+   }
+
+    .item-size-colon,.item-quantity-colon{
+        display: none;
+    }
+
+
+   .item-quantity-value-desktop{
+        float: left;
+    }
+
+ /*  UPPER PAGE DESKTOP VIEW */
+
+
+
+    body > section{
+        width:70%;
+        float: right;
+        text-align: left;
+    }
+    #aside-info{
+        width: 18%;
+        visibility: visible;
+
+    }
+    #aside-info > p > span{
+        display: block;
+    }
+    
+    #enter-code{
+        width: 25%;
+        display: inline;
+        
+    }
+
+    .promotion-code {
+        height: 50%;
+        display: inline;
+        
+
+    }
+
+    .signin-para{
+        visibility: hidden;
+    }
+    .checkout-button{
+        width: 30%;
+        float: right;
+    }
+    #link-continue{
+        margin-top: 33px;
+        margin-right: 20px;
+        float: right;
+    }
+    .secure-checkout{
+        margin-top: 100px;
+        margin-right: 0;
+        float: right;
+    }
+    .checkout-details + hr{
+        width: 200%;
+    }
+
+}
+
 

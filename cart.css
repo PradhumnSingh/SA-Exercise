@@ -1,91 +1,93 @@
 
 .lineB{
-	width: 100%;
-	height: 20px;
-	background-color: lightgrey;
+    width: 100%;
+    height: 20px;
+    background-color: lightgrey;
 }
 
 .promo{
-	text-align: center;
+    text-align: center;
 }
 
 .app{
-	height: 50px;
-	width: 25%;
-	background-color: white;
-	border: 2px solid lightgrey; 
-	
+    height: 50px;
+    width: 25%;
+    background-color: white;
+    border: 2px solid lightgrey; 
+    
 }
 #pCode{
-	height: 43px;
-	width: 50%;
-	margin-bottom: 45px;
+    height: 43px;
+    width: 50%;
+    margin-bottom: 45px;
 }
 
 .chL{
-	float: left;
-	display: inline-block;
-	margin-left: 30px;
+    float: left;
+    display: inline-block;
+    margin-left: 30px;
 }
 
 .chR{
-	float: right;
-	display: inline-block;
-	margin-right: 30px;
+    float: right;
+    display: inline-block;
+    margin-right: 30px;
 }
 article > p{
-	margin: 0;
+    margin: 0;
 }
 article{
-	height: 50px;
+    height: 50px;
+    text-align: left;
 }
 .spcl{
-	margin-top: 30px;
-	margin-bottom: 30px;
-	width: 70%;
-	height: 50px;
-	background-color: #2475c1;
-	border: none;
-	color: white;
-	
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 70%;
+    height: 50px;
+    background-color: #2475c1;
+    border: none;
+    color: white;
+    
 }
 body > section{
-	text-align: center;
+    text-align: center;
 }
 
 
 #linkCont + p > span{
-	display: block;
+    display: block;
 }
 
 #linkCont{
-	display: block;
-	color: grey;
-	margin-bottom: 30px;
+    display: block;
+    color: grey;
+    margin-bottom: 30px;
 }
 
 #sigin{
-	color: grey;
+    color: grey;
 }
 .iner{
-	color:  lightgray;
-	display: block;
-	font-size: 0.7em;
-	float: left;
+    color:  lightgray;
+    display: block;
+    font-size: 0.7em;
+    float: left;
+    text-align: left;
 }
 h3 > span{
-	display: block;
+    display: block;
 }
 
 #sigin + span, #sigin + span + span{
-	display: block;
+    display: block;
 }
 
-.chkOut > article{
-	margin: 20px 0 20px 0;
+.chkOut > article, hr + article{
+    margin: 20px 0 20px 0;
 }
 #hs{
-	visibility: hidden;
+    visibility: hidden;
 }
 
 
@@ -95,8 +97,8 @@ h3 > span{
     }
 
     img{
-    	height: 180px;
-    	width:180px;
+        height: 180px;
+        width:180px;
     }
 
     ul {
@@ -157,7 +159,7 @@ h3 > span{
     }
 
     .item-amount{
-    	font-size: 20px;
+        font-size: 20px;
     }
 
     .item-amount {
@@ -166,29 +168,26 @@ h3 > span{
     }
 
     .item-title{
-    	font-size: 16px;
-    	font-weight: normal;
-    	margin-left: 40px;
-    	float: right;
+        font-size: 16px;
+        font-weight: normal;
+        margin-left: 40px;
+        float: right;
     }
 
     #item1,#item2,#item3{
-    	margin-top: 20px;
-    	display: flex;
+        margin-top: 20px;
+        display: flex;
     }
 
     .total-items-display{
-    	float: right;
+        float: right;
         position: absolute;
         right: 20px;
         bottom: 762px;
     }
 
     .topmost-horizontal-line{
-    	display: none;
+        display: none;
     }
-
-
-
 
 

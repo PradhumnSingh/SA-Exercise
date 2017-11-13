@@ -1,250 +1,116 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Cart</title>
-    <link rel="stylesheet" href="reset.css">
-    <link rel="stylesheet" href="cart.css">
-</head>
-<body>
-    <header>
-        <h1 class="page-header">YOUR SHOPPING BAG </h1>
-        <hr class="topmost-horizontal-line"/>
+   <head>
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <title>Cart</title>
+      <link rel="stylesheet" href="assests/css/reset.css">
+      <link rel="stylesheet" href="assests/css/cart.css">
+   </head>
+   <body>
+      <header>
+         <h1 class="page-header">YOUR SHOPPING BAG </h1>
+         <hr class="topmost-horizontal-line" />
 
-        <!-- TITLES -->
-    <div class="heading">
-        <div class="total-items-display-desktop">3 ITEMS</div>
-        <div class="item-size-title-desktop">SIZE</div>
-        <div class="item-quantity-title-desktop">QTY</div>
-        <div class="item-price-title-desktop">PRICE</div>
-    </div>
+         <!-- TITLES -->
+         <div class="heading">
+            <div class="item-heading">4 ITEMS</div>
+            <div class="title-division">SIZE</div>
+            <div class="title-division ">QTY</div>
+            <div class="title-division ">PRICE</div>
+         </div>
+      </header>
 
-        <div class="total-items-display">3 ITEMS</div>
-    </header>
-
-    <hr class="section-separator"/>
-    
-         <!-- VALUES -->
-     <div class="item1-title-value">
-            <div class="item-image-division"><img src="T1.jpg" alt="item_img" class="item-image-desktop"/></div>
-            <div class="item-name-desktop">SOLID GREEN COTTON T-SHIRT
-                <span class="item-style">Style# : MS13KT1906</span>
-                <span class="item-color">Colour : Blue</span>
-                 <div class="functionalities-section-desktop">
-            <ul>
-                <li><a href="#" style="padding-left:0">EDIT</a>
-                </li>
-                <li><a href="#">X REMOVE</a>
-                </li>
-                <li><a href="#">SAVE FOR LATER</a>
-                </li>
-            </ul>
-        </div>
-       </div>
-           
-            <div class="item-size-value-desktop">S</div>
-            <div class="item-quantity-value-desktop"><input type="number" name="Quantity" class="item1-qty-box-desktop" min=0/></div>
-            <div class="item-amount-desktop"><span class="dollar-sign-desktop">$</span><span class="item-amount-value-desktop">11.00</span></div>
-    </div>
-        
-         
-
-      <!--  ITEM1 MOBILE -->
-        <div id="item1">
-              
-            <img src="T1.jpg" alt="item_img" class="item-image-mobile"/>
-            <p class="item-name"> SOLID GREEN COTTON T-SHIRT
-                <br/>
-                <span class="item-style">Style# : MS13KT1906</span>
-                <span class="item-color">Colour : Blue</span>
-                <span class="item-size"><span class="item-size-title-mobile">SIZE</span><span class="item-size-value-mobile"><span class="item-size-colon">:</span>S</span></span>
-                <br/><span class="item-quantity-title-mobile">QTY</span><span class="item-quantity-colon">:</span>
-                <input type="number" name="Quantity" class="item1-qty-box-mobile" min=0>
-                <br/>
-                <br/><span class="item-price-title-mobile">PRICE</span><span class="item-price-value-section"><span class="dollar-sign-mobile">$</span> <span class="item-amount-value-mobile">11.00</span></span>
-            </p>
-        </div>
-        <br/><br/>
-        <div class="functionalities-section-mobile">
-            <ul>
-                <li><a href="#">EDIT</a>
-                </li>
-                <li><a href="#">X REMOVE</a>
-                </li>
-                <li><a href="#">SAVE FOR LATER</a>
-                </li>
-            </ul>
-        </div>
-        <br/>
-      <!--   ITEM1 MOBILE -->
-
-        <hr class="items-separating-line"/>
-
-           <!--   ITEM2 DESKTOP -->
-         <div class="item1-title-value">
-            <div class="item-image-division"><img src="T2.jpg" alt="item_img" class="item-image-desktop"></div>
-            <div class="item-name-desktop">SOLID GREEN COTTON T-SHIRT
-                <span class="item-style">Style# : MS13KT1906</span>
-                <span class="item-color">Colour : Blue</span>
-                 <div class="functionalities-section-desktop">
-            <ul>
-                <li><a href="#" style="padding-left:0">EDIT</a>
-                </li>
-                <li><a href="#">X REMOVE</a>
-                </li>
-                <li><a href="#">SAVE FOR LATER</a>
-                </li>
-            </ul>
-        </div>
-       </div>
-           
-            <div class="item-size-value-desktop">S</div>
-            <div class="item-quantity-value-desktop"><input type="number" name="Quantity" class="item1-qty-box-desktop" min=0/></div>
-            <div class="item-amount-desktop"><span class="dollar-sign-desktop">$</span><span class="item-amount-value-desktop">11.00</span></div>
-    </div>
-        
-        <!--   ITEM2 DESKTOP -->
-
-       <!-- ITEM2 MOBILE  -->
-
-        <div id="item2">
-            <img src="T2.jpg" alt="item_img" class="item-image-mobile"/>
-            <p class="item-name">PINK RAINBOW PRINT GIRLS TEE
-                <span class="item-style">Style# : MS13KT1906</span>
-                <span class="item-color">Colour : Gray</span>
-                <span class="item-size">Size: M</span>
-                <br/> QTY:
-                <input type="number" name="Quantity" id="item2-qty" min=0>
-                <br/>
-                <br/> $ <span class="item-amount">11.00</span>
-            </p>
-        </div>
-        <br/><br/>
-        <div class="functionalities-section-mobile">
-            <ul>
-                <li><a href="#">EDIT</a>
-                </li>
-                <li><a href="#">X REMOVE</a>
-                </li>
-                <li><a href="#">SAVE FOR LATER</a>
-                </li>
-            </ul>
-        </div>
-        <br/>
-            <!--   ITEM2 MOBILE -->
-
-        <hr class="items-separating-line"/>
-      
-            <!--   ITEM3 DESKTOP -->
-         <div class="item1-title-value">
-            <div class="item-image-division"><img src="T3.jpg" alt="item_img" class="item-image-desktop"/></div>
-            <div class="item-name-desktop">SOLID GREEN COTTON T-SHIRT
-                <span class="item-style">Style# : MS13KT1906</span>
-                <span class="item-color">Colour : Blue</span>
-                 <div class="functionalities-section-desktop">
-            <ul>
-                <li><a href="#" style="padding-left:0">EDIT</a>
-                </li>
-                <li><a href="#">X REMOVE</a>
-                </li>
-                <li><a href="#">SAVE FOR LATER</a>
-                </li>
-            </ul>
-        </div>
-       </div>
-           
-            <div class="item-size-value-desktop">S</div>
-            <div class="item-quantity-value-desktop"><input type="number" name="Quantity" class="item1-qty-box-desktop" min=0/></div>
-            <div class="item-amount-desktop"><span class="dollar-sign-desktop">$</span><span class="item-amount-value-desktop">11.00</span></div>
-    </div>
-        
-             <!--   ITEM3 DESKTOP -->
-
-        <!--   ITEM3 MOBILE -->
-        <div id="item3">
-            <img src="T3.jpg" alt="item-img" class="item-image-mobile"/>
-            <p class="item-name">BLUE FLOWER T-SHIRT
-                <span class="item-style">Style# : MS13KT1906</span>
-                <span class="item-color">Colour : Blue</span>
-                <span class="item-size">Size: L</span>
-                <br/> QTY:
-                <input type="number" name="Quantity" id="item3-qty" min=0>
-                <br/>
-                <br/> $ <span class="item-amount">11.00</span>
-            </p>
-        </div>
-
-
-        <br/><br/>
-        <div class="functionalities-section-mobile">
-            <ul>
-                <li><a href="#">EDIT</a>
-                </li>
-                <li><a href="#">X REMOVE</a>
-                </li>
-                <li><a href="#">SAVE FOR LATER</a>
-                </li>
-            </ul>
-        </div>
-        <br/>
-            <!--   ITEM3 MOBILE -->
-
-        <hr class="section-separator"/>
-
-    </div>
-    
-    <section>
-        <div class="promotion-code">
-            <p>ENTER PROMOTION CODE OR GIFT CARD</p>
-            <div id="enter-code">
-                <input type="text" id="p-code"/>
-                <button class="apply-button">APPLY</button>
+      <!--  MODAL HTML -->
+      <div  id="model-pop">
+         <a class="close-me">X</a>
+         <div class="product-details">
+            <p>Paisel Jeans</p>
+            <p class="price">$21</p>
+            <br/>
+            <p>Color</p>
+            <div class="color-model">
+               <div class="color-choice1"></div>
+               <div class="color-choice2"></div>
             </div>
-        </div>
-        <hr/>
-        <div class="checkout-details">
-            <article>
-                <p class="checkout-L">SUBTOTAL</p>
-                <span class="checkout-R">$30.07</span>
-            </article>
-            
-            <article>
-                <p class="checkout-L">ESTIMATED SHIPPING*</p>
-                
-                <span class="checkout-R">FREE</span>
-                <span class="checkout-L inner">You Spent $30, so you can qualify for free Shipping</span>
-            </article>
-            <article>
-                <p class="checkout-L">PROMOTION CODE</p>
-                <span class="checkout-R">-$0.07</span>
-            </article>
-        </div>
-        <hr id="divider"/>
-        <article>
-            <p class="checkout-L">ESTIMATED TOTAL</p>
-            
-            <span class="checkout-R">$30.00</span>
-            <span class="checkout-L inner">Tax will be applied at Checkout</span>
-        </article>
-        <hr/>
-        <button class="checkout-button">CHECKOUT</button>
-        <div class="line-break"></div>
-        <a href="#" id="link-continue">CONTINUE SHOPPING</a>
+            <br/>
+            <div class="choose-option">
+               <select name="size" id="new-size-value">
+                  <option value="S">S</option>
+                  <option value="M">M</option>
+                  <option value="L">L</option>
+                  <option value="XL">XL</option>
+               </select>
+               <select name="quantity" id="new-qty-value">
+                  <option value="1" selected="selected">Qty:1</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                  <option value="4">4</option>
+                  <option value="5">5</option>
+               </select>
+            </div>
+            <button class="edit-button-modal">Edit</button>
+            <a href="#">See Product Details</a>
+         </div>
+         <div class="product-image">
+            <img src="assests/image/P1.jpg" alt="modal-item-image" />
+         </div>
+      </div>
 
-        <p class="secure-checkout">Secure checkout. Shopping is <span>always safe and secure</span></p>
-        
-        <div class="signin-para">
-            <p><a href="signin.html" id="signin-link">SIGN IN</a> to save your cart and have <span> access to your items on </span><span>Mobile, Tablet and Desktop</span></p>
-        </div>
-    </section>
+      <!--    MODAL HTML -->
+      <hr class="section-separator" />
+      
 
-
-    <aside id="aside-info">
-        <p>Need help or have questions?</p>
-        <p>Call customer-service at <span>1-800-555-5555</span></p>
-        <p><a href="#">Chat with one of our Stylists</a></p>
-        <p><a href="#">See return and exchange policy</a></p>
-    </aside>
-</body>
+      <div id="full-list">
+      </div>
+      <br/>
+      
+      <!--   ITEM3 MOBILE -->
+      <hr class="section-separator" />
+      <section>
+         <div class="promotion-code">
+            <div class="checkout-head">
+               <span>ENTER PROMOTION CODE OR GIFT CARD</span>
+            </div>
+            <div id="enter-code">
+               <input type="text" id="p-code"/>
+               <button class="apply-button">APPLY</button>
+            </div>
+         </div>
+         <div class="checkout-details">
+            <div class="charges">
+               <span class="checkout-detail">SUBTOTAL</span>
+               <span class="checkout-price" id="total-price"></span>
+            </div>
+            <div class="charges">
+               <span class="checkout-detail">ESTIMATED SHIPPING*<span class=" inner">You Spent $30, so you qualify for free Shipping</span></span>
+               <span class="checkout-price" id="shipping-charges"></span>
+            </div>
+            <div class="charges">
+               <span class="checkout-detail">PROMOTION CODE</span>
+               <span class="checkout-price" id="promotion-code-value">-$0.07</span>
+            </div>
+         </div>
+         <div class="charges">
+            <span class="checkout-detail">ESTIMATED TOTAL<span class="inner">Tax will be applied at Checkout</span></span>
+            <span class="checkout-price" id="final-price">$30.00</span>
+         </div>
+         <button class="checkout-button">CHECKOUT</button>
+         <a href="#" id="link-continue">CONTINUE SHOPPING</a>
+         <p class="secure-checkout"><img src="assests/image/lock.jpg" alt="lock-image" /> Secure checkout. Shopping is always safe and secure</p>
+         <div class="signin-para">
+            <p><a href="signin.html" id="signin-link">SIGN IN</a> to save your cart and have access to your items on Mobile, Tablet and Desktop</p>
+         </div>
+      </section>
+      <aside id="aside-info">
+         <p>Need help or have questions?</p>
+         <br/><br/>
+         <p>Call customer-service at <a href="tel:18005555555">1-800-555-5555</a></p>
+         <br/><br/>
+         <p><a href="#">Chat with one of our Stylists</a></p>
+         <br/><br/>
+         <p><a href="#">See return and exchange policy</a></p>
+      </aside>
+      <script type="text/javascript" src="assests/js/cart.js"></script>
+   </body>
 </html>

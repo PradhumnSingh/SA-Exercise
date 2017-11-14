@@ -1,4 +1,6 @@
 # SA-Exercise
 
 
---- couldnt create folders so little image and css files src url may not work
+#Prerequisites
+-Start a json server with port 3000 to run project smoothly.
+

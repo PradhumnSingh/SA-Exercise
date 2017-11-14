@@ -1,0 +1,357 @@
+
+
+/*///////////////////////////////  LOWER HALF MOBILE VIEW/////////////////////////////////////////////*/
+
+section {
+    text-align: center;
+    margin-top: 20px;
+}
+a {
+    color: grey;
+}
+#model-pop {
+    display: none;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 500px;
+    height: 370px;
+    margin: auto;
+    border: 2px solid lightgrey;
+    background-color: white;
+}
+.close-me {
+    font-weight: bold;
+    margin-left: 230px;
+    position: fixed;
+    cursor: pointer;
+}
+.promotion-code {
+    height: 120px;
+    width: 100%;
+}
+.checkout-head {
+    height: 50px;
+    text-align: center;
+    width: 100%;
+}
+.apply-button {
+    height: 50px;
+    width: 25%;
+    background-color: white;
+    border: 2px solid lightgrey;
+    display: inline-block;
+}
+#p-code {
+    height: 43px;
+    width: 50%;
+    margin-bottom: 45px;
+    display: inline-block;
+}
+.checkout-details {
+    border-top: 2px solid grey;
+    border-bottom: 2px solid grey;
+}
+.line-break {
+    margin: 10px 0 10px 0;
+    border-top: 2px solid grey;
+}
+.charges {
+    width: 100%;
+    height: 50px;
+    margin: 20px 20px 0 0;
+    display: inline-block;
+}
+.checkout-detail {
+    margin-left: 20px;
+    float: left;
+}
+.checkout-price {
+    margin-right: 20px;
+    float: right;
+}
+.inner {
+    display: block;
+    font-size: 0.6em;
+    color: grey;
+}
+.checkout-button {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 70%;
+    height: 50px;
+    background-color: #2475c1;
+    border: none;
+    color: white;
+}
+#link-continue {
+    display: block;
+    color: grey;
+    margin-bottom: 30px;
+}
+#aside-info {
+    display: none;
+}
+.signin-para {
+    text-align: center;
+    width: 100%;
+}
+#enter-code {
+    margin: 0 auto;
+    width: 80%;
+}
+.button-apply {
+    display: inline-block;
+}
+/*  MODAL CSS*/
+
+
+.product-details {
+    border-top: 1px solid grey;
+    width: 50%;
+    float: left;
+    display: inline-block;
+    text-align: center;
+    margin-top: 50px;
+}
+.product-image {
+    width: 50%;
+    display: inline-block;
+    margin-top: 70px;
+    text-align: center;
+}
+.color-choice1 {
+    background-color: #f2e7c4;
+    width: 30px;
+    height: 30px;
+    float: left;
+    display: inline-block;
+    margin-left: 100px;
+}
+.color-choice2 {
+    background-color: #9dc49f;
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    margin-right: 60px;
+}
+.price {
+    font-size: 1.5em;
+}
+.choose-option {
+    display: block;
+    height: 30px;
+}
+.edit-button-modal {
+    width: 50%;
+    height: 30px;
+    background-color: #2475c1;
+    border: 1px grey;
+    color: white;
+}
+.edit-button-modal + a {
+    display: block;
+}
+
+
+/*///////////////////////////////  LOWER HALF MOBILE VIEW/////////////////////////////////////////////*/
+/*//////////////////////////////   UPPER HALF MOBILE VIEW ///////////////////////////////////////////////*/
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+li {
+    float: left;
+    font-size: 14px;
+    border-right: 1px solid black;
+}
+li:last-child {
+    border-right: none;
+}
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    margin-left: 30px;
+    padding: 10px 11px;
+    text-decoration: none;
+}
+hr.section-separator {
+    border: none;
+    height: 6px;
+    background-color: #cccccc;
+    color: #cccccc;
+}
+.total-items-display {
+    float: right;
+    margin-top: -32px;
+    font-size: 12px;
+}
+.topmost-horizontal-line {
+    visibility: hidden;
+}
+hr.items-separating-line {
+    clear: left;
+}
+.item-name-desktop {
+    margin-left: 20px;
+}
+.title-division {
+    display: none;
+}
+.item-heading {
+    margin-top: 20px;
+    display: inline-block;
+    width: 14%;
+}
+.page-header {
+    display: inline-block;
+    float: left;
+    width: 80%;
+}
+.item-style,
+.item-color,
+.item-size {
+    color: #cccccc;
+    font-size: 12px;
+    display: block;
+}
+.item-image-division,
+.item-name-desktop {
+    float: left;
+}
+.item-name-desktop {
+    margin-top: 24px
+}
+hr.items-separating-line {
+    clear: left;
+}
+.section-separator {
+    clear: left;
+}
+.container {
+    width: 100%;
+    margin-top: 12px;
+    margin-left: 18px;
+}
+.item1-title-value {
+    width: 100%;
+    margin-top: 22px;
+    float: left;
+}
+.item-image-division {
+    margin-left: 0px;
+    margin-bottom: 37px;
+    width: 34%;
+}
+.item-image-desktop {
+    height: 180px;
+    width: 186px;
+}
+.item-name-desktop {
+    width: 30.5%;
+    margin-left: 40px;
+}
+.functionalities-section-desktop {
+    margin-top: 145px;
+}
+
+
+/*//////////////////////////////   UPPER HALF MOBILE VIEW ///////////////////////////////////////////////*/
+/*///////////////////////////////  UPPER HALF DESKTOP VIEW/////////////////////////////////////////////*/
+
+@media screen and (min-width: 910px) {
+    header {
+        margin-bottom: 36px;
+    }
+    .item-size,
+    .quantity {
+        display: none;
+    }
+    .total-items-display {
+        display: none;
+    }
+    .title-division {
+        display: inline-block;
+        width: 14%;
+    }
+    .item-heading {
+        width: 57%;
+        display: inline-block;
+    }
+    .topmost-horizontal-line {
+        visibility: visible;
+    }
+    .heading {
+        display: block;
+        margin-top: 44px;
+        margin-left: 19px;
+    }
+    .container {
+        width: 69%;
+    }
+    .item-image-division {
+        margin-left: 0px;
+        margin-bottom: 37px;
+        width: 28%;
+    }
+    .item-image-desktop {
+        height: 180px;
+        width: 232px;
+    }
+
+
+    /*///////////////////////////////  UPPER HALF DESKTOP VIEW/////////////////////////////////////////////*/
+    /*///////////////////////////////  LOWER HALF DESKTOP VIEW/////////////////////////////////////////////*/
+    
+    section {
+        width: 70%;
+        float: right;
+        margin-top: 20px;
+    }
+    #aside-info {
+        width: 20%;
+        display: inline-block;
+        margin-top: 20px;
+    }
+    #enter-code {
+        width: 25%;
+        display: inline;
+    }
+    .promotion-code {
+        height: 50%;
+        display: inline;
+    }
+    .signin-para {
+        display: none;
+    }
+    .checkout-button {
+        width: 30%;
+        float: right;
+    }
+    #link-continue {
+        margin-top: 45px;
+        margin-right: 20px;
+        float: right;
+    }
+    .secure-checkout {
+        margin-top: 100px;
+        float: right;
+        margin-right: -370px;
+    }
+    .checkout-head {
+        width: 30%;
+        float: left;
+    }
+    #p-code,
+    .apply-button {
+        width: 30%;
+    }
+
+}
+
+/*///////////////////////////////  LOWER HALF DESKTOP VIEW/////////////////////////////////////////////*/
